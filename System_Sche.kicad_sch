@@ -1,0 +1,153 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9473a320-995e-4b4a-b95a-ce1681bd2e47")
+	(paper "A4")
+	(lib_symbols)
+	(text "SYSTEM SCHEMATIC"
+		(exclude_from_sim no)
+		(at 160.274 24.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f3d7a63f-02e0-4c90-aaa0-7f3de9756031")
+	)
+	(sheet
+		(at 134.62 39.878)
+		(size 44.45 51.562)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(color 0 0 255 1.0000)
+		)
+		(uuid "8a021d56-2793-4f3d-80db-9eaf4863093e")
+		(property "Sheetname" "Peripheral_Relay"
+			(at 134.62 39.1664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripheral_Relay.kicad_sch"
+			(at 134.62 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Buck_5V"
+				(path "/9473a320-995e-4b4a-b95a-ce1681bd2e47"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 39.37)
+		(size 35.56 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 1.0000)
+		)
+		(uuid "bc309b51-bb01-4a57-b332-04ee75531be7")
+		(property "Sheetname" "MCU_ESP32_WROM_32E"
+			(at 86.36 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_ESP32_WROM_32E.kicad_sch"
+			(at 86.36 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Buck_5V"
+				(path "/9473a320-995e-4b4a-b95a-ce1681bd2e47"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 42.799 38.735)
+		(size 28.321 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 132 132 1.0000)
+		)
+		(uuid "c8da68b2-eadf-4ece-b21a-2ee62d757f1e")
+		(property "Sheetname" "PWR_220V_5V_3V3"
+			(at 42.799 38.0234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_220V_5V_3V3.kicad_sch"
+			(at 42.799 91.3896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Buck_5V"
+				(path "/9473a320-995e-4b4a-b95a-ce1681bd2e47"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
